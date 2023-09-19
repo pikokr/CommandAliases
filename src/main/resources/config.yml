@@ -1,0 +1,8 @@
+commands:
+  - names: [hi, hello]
+    executes: say Hi!
+    children:
+      - name: something
+        children:
+          - name: strange
+            executes: kill @s

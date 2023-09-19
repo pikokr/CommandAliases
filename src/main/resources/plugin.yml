@@ -1,0 +1,9 @@
+name: CommandAliases
+version: '${version}'
+main: moe.paring.aliases.CommandAliasesPlugin
+api-version: '1.20'
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}
+  - org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}
+  - io.github.monun:kommand-core:${kommandVersion}
+  - com.charleskorn.kaml:kaml:${kamlVersion}
