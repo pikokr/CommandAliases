@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "moe.paring"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 java {
     toolchain {
